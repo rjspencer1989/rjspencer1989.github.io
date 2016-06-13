@@ -19,3 +19,17 @@ github_username:  rjspencer1989
 
 # Build settings
 markdown: kramdown
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
