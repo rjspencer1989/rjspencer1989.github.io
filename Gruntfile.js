@@ -17,8 +17,20 @@ module.exports = function(grunt){
                     branch: 'master'
                 }
             }
+        },
+
+        jekyll: {
+            options: {
+                src: '.'
+            },
+
+            build: {
+                options: {
+                    serve: false
+                }
+            }
         }
     });
 
-    grunt.registerTask('default', ['buildcontrol:pages']);
+    grunt.registerTask('default', ['jekyll:build', 'buildcontrol:pages']);
 };
