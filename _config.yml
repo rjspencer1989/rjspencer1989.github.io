@@ -29,6 +29,7 @@ scholar:
   bibliography: references.bib
   bibliography_template: "{{reference}}"
   use_raw_bibtex_entry: false
+  sort_by: year,month
   bibtex_filters:
   - superscript
   - latex
