@@ -6,7 +6,6 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-exclude: ["node_modules", "package.json", "Gruntfile.js"]
 title: Robert Spencer
 email: rob@robspencer.me.uk
 description: > # this means to ignore newlines until "baseurl:"
@@ -19,6 +18,7 @@ twitter_username: rjspencer1989
 github_username:  rjspencer1989
 
 # Build settings
+exclude: ["node_modules", "package.json", "Gruntfile.js"]
 markdown: kramdown
 
 defaults:
