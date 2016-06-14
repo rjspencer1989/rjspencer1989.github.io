@@ -1,0 +1,24 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "website",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rjspencer1989/rjspencer1989.github.io.git"
+  },
+  "author": "Robert Spencer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rjspencer1989/rjspencer1989.github.io/issues"
+  },
+  "homepage": "https://robspencer.me.uk",
+  "private": true,
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-build-control": "^0.7.0",
+    "grunt-jekyll": "^0.4.4"
+  }
+}
