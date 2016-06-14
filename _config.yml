@@ -19,7 +19,25 @@ github_username:  rjspencer1989
 
 # Build settings
 exclude: ["node_modules", "package.json", "Gruntfile.js"]
+gems: ['jekyll/scholar']
 markdown: kramdown
+
+scholar:
+  style: apa
+  locale: en
+  source: ./_bibliography
+  bibliography: references.bib
+  bibliography_template: "{{reference}}"
+  use_raw_bibtex_entry: false
+  bibtex_filters:
+  - superscript
+  - latex
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"
 
 defaults:
   -
