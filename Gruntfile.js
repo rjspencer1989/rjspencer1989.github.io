@@ -9,13 +9,6 @@ module.exports = function(grunt){
                 push: true,
                 message: 'Built %sourceName% from commmit %sourceCommit% on branch %sourceBranch%'
             },
-            source: {
-                options: {
-                    dir: '.',
-                    remote: 'git@github.com:rjspencer1989/rjspencer1989.github.io.git',
-                    branch: 'dev'
-                }
-            },
 
             pages: {
                 options: {
@@ -27,5 +20,5 @@ module.exports = function(grunt){
         }
     });
 
-    grunt.registerTask('default', ['buildcontrol:source']);
+    grunt.registerTask('default', ['buildcontrol:pages']);
 };
