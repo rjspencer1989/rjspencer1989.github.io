@@ -5,5 +5,6 @@ title: Research
 - HCI
 - UX
 - Networking
+ 
 # Publications
 {% bibliography %}
