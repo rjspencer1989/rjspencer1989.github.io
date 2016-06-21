@@ -2,3 +2,7 @@
 .jekyll-metadata
 node_modules/
 _site/
+_sass/bootstrap/*
+javascripts/*
+fonts/*
+_bootstrap.scss
