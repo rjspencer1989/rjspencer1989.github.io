@@ -27,7 +27,7 @@ scholar:
   locale: en
   source: ./_bibliography
   bibliography: references.bib
-  bibliography_template: "{{reference}}"
+  bibliography_template: bib
   use_raw_bibtex_entry: false
   sort_by: year,month
   bibtex_filters:
