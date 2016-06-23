@@ -12,6 +12,9 @@ weight: 2
 {% bibliography %}
 
 # Ph.D
+
 ## Understanding Configuration History in Domestic Networks
+
 ### Supervisors: [Professor Tom Rodden](http://rodden.info) and [Dr Richard Mortier](http://mort.io)
+
 ### Description
