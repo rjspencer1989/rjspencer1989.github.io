@@ -1,11 +1,40 @@
-body{
-    padding-top: 70px;
+html, body{
+    height: 100%;
 }
 
 .footer-col-small{
     @extend .col-md-4;
     @extend .col-sm-4;
     @extend .col-xs-12;
+}
+
+.wrap{
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -60px;
+}
+
+.wrap > .container{
+    padding-top: 70px;
+}
+
+#push, #footer{
+    height: 60px;
+}
+
+#footer{
+    background-color: $gray-lighter;
+}
+
+@media(max-width:767px){
+    #footer{
+        margin-left: -20px;
+        margin-right: -20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 120px;
+    }
 }
 
 .icon {
@@ -25,12 +54,6 @@ body{
 .contact-list, .social-media-list{
     list-style: none;
     margin-left: 0;
-}
-
-.footer-row{
-    @extend .row;
-    border-top: 2px solid $grey-color-light;
-    padding-top: 5px;
 }
 
 .content-block{
