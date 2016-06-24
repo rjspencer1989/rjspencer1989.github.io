@@ -5812,28 +5812,10 @@ button.close {
 html, body {
   height: 100%; }
 
-.wrap {
-  min-height: 100%;
-  height: auto !important;
-  height: 100%;
-  margin: 0 auto -60px; }
+body {
+  padding-top: 70px;
+  padding-bottom: 70px; }
 
-.wrap > .container {
-  padding-top: 70px; }
-
-#push, #footer {
-  height: 60px; }
-
-#footer {
-  background-color: #eeeeee; }
-
-@media (max-width: 767px) {
-  #footer {
-    margin-left: -20px;
-    margin-right: -20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    height: 120px; } }
 .icon > svg {
   display: inline-block;
   width: 16px;
