@@ -6,18 +6,7 @@
                 <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-
-            </ul>
-        </div>
-    </nav>
-</footer>
-
-
-<div class="container">
-    <div class="row">
-        <div class="footer-col-small">
-            <ul class="contact-list">
-               {% if site.github_username %}
+                {% if site.github_username %}
                 <li>
                     {% include icon-github.html username=site.github_username %}
                 </li>
@@ -30,4 +19,5 @@
                 {% endif %}
             </ul>
         </div>
-</div>
+    </nav>
+</footer>
