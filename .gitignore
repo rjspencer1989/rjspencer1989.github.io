@@ -4,5 +4,5 @@ node_modules/
 _site/
 _sass/bootstrap/*
 javascripts/*
-fonts/*
+font-awesome/*
 _bootstrap.scss

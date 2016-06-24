@@ -7,31 +7,6 @@ body {
     padding-bottom: 70px;
 }
 
-.footer-col-small{
-    @extend .col-md-4;
-    @extend .col-sm-4;
-    @extend .col-xs-12;
-}
-
-.icon {
-
-    > svg {
-        display: inline-block;
-        width: 16px;
-        height: 16px;
-        vertical-align: middle;
-
-        path {
-            fill: $grey-color;
-        }
-    }
-}
-
-.contact-list, .social-media-list{
-    list-style: none;
-    margin-left: 0;
-}
-
 .content-block{
     @extend .col-md-8;
     @extend .col-sm-12;
@@ -42,4 +17,8 @@ body {
     font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
+}
+
+i {
+    color: $gray-light;
 }
