@@ -1,6 +1,7 @@
 module.exports = function(grunt){
     grunt.loadNpmTasks('grunt-build-control');
     grunt.loadNpmTasks('grunt-jekyll');
+    grunt.loadNpmTasks('grunt-contrib-copy');
     
     grunt.initConfig({
         buildcontrol: {
@@ -29,8 +30,15 @@ module.exports = function(grunt){
                     serve: false
                 }
             }
+        }, 
+
+        copy: {
+            bib: {
+                src: "/Users/rob/Google\ Drive/publications.bib",
+                dest: "./_bibliography/references.bib"
+            }
         }
     });
 
-    grunt.registerTask('default', ['jekyll:build', 'buildcontrol:pages']);
+    grunt.registerTask('default', ['copy:bib', 'jekyll:build', 'buildcontrol:pages']);
 };
