@@ -3,16 +3,14 @@ title: Contact Details
 weight: 4
 ---
 
-C07 School of Computer Science,
+5G Innovation Centre,
 
-University of Nottingham Jubilee Campus,
+University of Surrey Stag Hill Campus,
 
-Wollaton Road,
+Guildford,
 
-Nottingham,
+GU2 7XH
 
-NG8 1BB
-
-[psxrjs@nottingham.ac.uk](mailto:psxrjs@nottingham.ac.uk) (University of Nottingham)
+[rs0057@surrey.ac.uk](mailto:rs0057@surrey.ac.uk) (University of Surrey)
 
 [{{ site.email }}](mailto:{{ site.email }}) (Personal)
