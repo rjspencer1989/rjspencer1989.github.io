@@ -3,21 +3,23 @@ title: Research
 weight: 2
 ---
 # Research Interests
+
 - HCI
 - UX
 - Networking
 - Undo Methods
 
-# Publications
+## Publications
+
 {% bibliography %}
 
-# Ph.D
+## Ph.D
 
-## Understanding Configuration History in Domestic Networks
+### Understanding Configuration History in Domestic Networks
 
-### Supervisors: [Professor Tom Rodden](http://rodden.info) and [Dr Richard Mortier](http://mort.io)
+#### Supervisors: [Professor Tom Rodden](http://rodden.info) and [Dr Richard Mortier](http://mort.io)
 
-### Description
+#### Description
 
 Networks are now a common feature in homes. Although networks are commonplace, householders still face difficulty in
 maintaining their networks.

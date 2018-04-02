@@ -17,17 +17,18 @@
   "homepage": "https://robspencer.me.uk",
   "private": true,
   "devDependencies": {
-    "grunt": "^1.0.1",
-    "grunt-build-control": "^0.7.0",
-    "grunt-contrib-copy": "^1.0.0",
-    "grunt-contrib-cssmin": "^1.0.1",
-    "grunt-contrib-watch": "^1.0.0",
-    "grunt-git": "^1.0.0",
-    "grunt-jekyll": "^0.4.4"
+    "grunt": "latest",
+    "grunt-build-control": "latest",
+    "grunt-contrib-copy": "latest",
+    "grunt-contrib-cssmin": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-git": "latest",
+    "grunt-jekyll": "latest"
   },
   "dependencies": {
-    "bootstrap-sass": "^3.3.6",
-    "font-awesome": "^4.6.3",
-    "jquery": "^2.2.4"
+    "bootstrap": "latest",
+    "font-awesome": "latest",
+    "jquery": "latest",
+    "popper.js": "latest"
   }
 }

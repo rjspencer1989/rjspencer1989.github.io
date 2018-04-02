@@ -11,6 +11,6 @@ Guildford,
 
 GU2 7XH
 
-[rs0057@surrey.ac.uk](mailto:rs0057@surrey.ac.uk) (University of Surrey)
+[robert.spencer@surrey.ac.uk](mailto:robert.spencer@surrey.ac.uk) (University of Surrey)
 
 [{{ site.email }}](mailto:{{ site.email }}) (Personal)
