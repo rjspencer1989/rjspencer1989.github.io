@@ -17,7 +17,7 @@
   "homepage": "https://robspencer.me.uk",
   "private": true,
   "devDependencies": {
-    "grunt": "latest",
+    "grunt": "^1.0.2",
     "grunt-build-control": "latest",
     "grunt-contrib-copy": "latest",
     "grunt-contrib-cssmin": "latest",
