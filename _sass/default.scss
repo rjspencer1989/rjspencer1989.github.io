@@ -4,25 +4,33 @@ body {
 }
 
 .wrap{
-    @include container-fixed();
+    @include make-container();
 
     section{
         @include make-row();
 
         .content-block{
-            @include make-sm-column(12);
-            @include make-md-column(8);
-            @include make-md-column-offset(2);
+            @include make-col-ready();
+            @include media-breakpoint-up(xs){
+                @include make-col(12);
+            }
+            @include media-breakpoint-up(md){
+                @include make-col(8);
+                @include make-col-offset(2);
+            }
         }
     }
 }
 
 article{
-    @include container-fixed();
+    @include make-container();
     header{
         @include make-row();
         .post-title{
-            @include make-md-column(4);
+            @include make-col-ready();
+            @include media-breakpoint-up(md){
+                @include make-col(4);
+            }
             font-size: 42px;
             letter-spacing: -1px;
             line-height: 1;
@@ -32,5 +40,5 @@ article{
 }
 
 i {
-    color: $gray-light;
+    color: $grey-color-light;
 }

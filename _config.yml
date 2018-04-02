@@ -17,10 +17,13 @@ github_username:  rjspencer1989
 linkedin_username: robert-spencer-6b096511b
 
 # Build settings
-exclude: ["node_modules", "package.json", "Gruntfile.js"]
-gems: ['jekyll/scholar']
+exclude: ["package.json", "Gruntfile.js"]
+plugins: ['jekyll/scholar']
 markdown: kramdown
-
+sass:
+  load_paths:
+    - _sass
+    - node_modules
 scholar:
   style: apa
   locale: en
