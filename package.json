@@ -18,11 +18,8 @@
   "private": true,
   "devDependencies": {
     "grunt": "^1.0.2",
-    "grunt-build-control": "latest",
-    "grunt-contrib-copy": "latest",
     "grunt-contrib-cssmin": "latest",
     "grunt-contrib-watch": "latest",
-    "grunt-git": "latest",
     "grunt-jekyll": "latest"
   },
   "dependencies": {

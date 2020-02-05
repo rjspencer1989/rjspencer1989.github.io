@@ -9,10 +9,6 @@ weight: 2
 - Networking
 - Undo Methods
 
-## Publications
-
-{% bibliography %}
-
 ## Ph.D
 
 ### Understanding Configuration History in Domestic Networks
