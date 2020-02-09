@@ -1,9 +1,1 @@
-.sass-cache/
-.jekyll-metadata
-_site/
-_sass/
-javascripts/*
-font-awesome/*
-node_modules/
-!node_modules/bootstrap
 .idea/
