@@ -14,5 +14,7 @@
       <a href="https://www.linkedin.com/in/robert-spencer-6b096511b/">LinkedIn</a>.
     </p>
 
+    <p>My work: <a href="https://www.surrey.ac.uk/institute-communication-systems">University of Surrey Institute of Communication Systems</a></p>
+
   </div>
 </section>
