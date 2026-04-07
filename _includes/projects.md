@@ -13,7 +13,8 @@
 
       <article class="card">
         <h3>5G Core Components</h3>
-        <p>Implementation of PFCP and NGAP control-plane services.</p>
+        <p>Implementation of NAS and NGAP control-plane services.</p>
+        <p>Implementation of AMF, AUSF, UDM, UDR</p>
       </article>
 
     </div>
