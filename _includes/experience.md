@@ -8,18 +8,12 @@
     <div class="cards">
 
       <article class="card">
-        <h3>Software Engineer, ACME Networks</h3>
+        <h3>Research Software Developer. University of Surrey</h3>
         <p>
-          Developed high-performance networking components in C++20 and Boost.Asio.
+          Developed high-performance networking components in C++20 and Boost.Asio, for a custom 5G core network.
         </p>
       </article>
 
-      <article class="card">
-        <h3>Core Network Developer, TelecomX</h3>
-        <p>
-          Worked on 5G core PFCP/NF services and HTTP/2 server implementations.
-        </p>
-      </article>
 
     </div> <!-- .cards -->
 
