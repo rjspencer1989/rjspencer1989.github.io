@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<div class="layout">
+
+  <nav class="sidebar" aria-label="Section navigation">
+    <ul>
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+     <div class="sidebar-controls">
+         <button id="toggle-reading" aria-pressed="false">Reading Mode: <span class="status">OFF</span></button>
+    <label for="text-size">Text Size:</label>
+    <select id="text-size">
+      <option value="small">Small</option>
+      <option value="medium" selected>Medium</option>
+      <option value="large">Large</option>
+    </select>
+  </div>
+  </nav>
+
+  <main id="main">
+    {{ content }}
+  </main>
+
+</div>
+
+<script src="{{ '/assets/script.js' | relative_url }}"></script>
+</body>
+</html>
