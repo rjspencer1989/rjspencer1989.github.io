@@ -1,7 +1,7 @@
 // Section → sidebar colour mapping
 const sectionColors = {
   hero: "#ff9091",
-  projects: "#ffa850",
+  research: "#ffa850",
   experience: "#fcdc3e",
   skills: "#aad84d",
   contact: "#6fcf88"
@@ -32,7 +32,7 @@ const observer = new IntersectionObserver(
       }
     });
   },
-  { threshold: 0.6 }
+  { threshold: 0.8 }
 );
 
 sections.forEach(section => observer.observe(section));

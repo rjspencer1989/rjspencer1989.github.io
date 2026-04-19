@@ -1,6 +1,6 @@
 :root {
   --hero: #ff9091;
-  --projects: #ffa850;
+  --research: #ffa850;
   --experience: #fcdc3e;
   --skills: #aad84d;
   --contact: #6fcf88;
@@ -79,7 +79,7 @@ body {
 
 /* Panel colours (for full-width) */
 .hero { background: var(--hero); }
-.projects { background: var(--projects); }
+.research { background: var(--research); }
 .experience { background: var(--experience); }
 .skills { background: var(--skills); }
 .contact { background: var(--contact); }

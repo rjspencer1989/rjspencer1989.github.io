@@ -12,6 +12,12 @@
         <p>
           Developed high-performance networking components in C++20 and Boost.Asio, for a custom 5G core network.
         </p>
+        <ul>
+            <li>Boost::asio HTTP/2 server</li>
+            <li>NGAP protocol</li>
+            <li>NAS protocol</li>
+            <li>5G network functions including AMF, AUSF, UDM, UDR</li>
+        </ul>
       </article>
 
 
